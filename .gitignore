@@ -1,0 +1,23 @@
+# Compilación/IDE (Visual Studio, MSVC)
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.pdb
+*.ilk
+*.idb
+*.tlog/
+*.log
+
+# Otros temporales
+*.tmp
+*.cache
+*.swp
+~$*
+
