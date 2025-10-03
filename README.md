@@ -69,8 +69,7 @@
   - Variantes que no impriman en `conteo/hanoi/permutaciones` sino que devuelvan estructuras (p. ej., vector de pasos).
 
 
-## Notas
+## Notas / Peligros
 - Posibles desbordes en `long long` para entradas grandes.
 - `fibonacci(n)` sin memoizacion es costoso para `n` grandes.
-- Recomendado tener `.gitignore` para ignorar `.vs/`, `bin/`, `obj/` y archivos temporales.
 
