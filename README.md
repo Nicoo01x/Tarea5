@@ -69,16 +69,6 @@
   - Variantes que no impriman en `conteo/hanoi/permutaciones` sino que devuelvan estructuras (p. ej., vector de pasos).
 
 
-## Como compilar
-- Visual Studio 2022
-  - Abre `Tarea5-Headers/Tarea5-Headers.sln`.
-  - Configuracion: `Debug|x64` (o `Release|x64`).
-  - Build -> Build Solution.
-- Consola (g++)
-  - Ubicate en `Tarea5-Headers/` y ejecuta:
-    - Windows: `g++ -std=c++17 -Iinclude src/*.cpp main.cpp -o tarea5.exe`
-    - Linux/macOS: `g++ -std=c++17 -Iinclude src/*.cpp main.cpp -o tarea5 && ./tarea5`
-
 ## Notas
 - Posibles desbordes en `long long` para entradas grandes.
 - `fibonacci(n)` sin memoizacion es costoso para `n` grandes.
